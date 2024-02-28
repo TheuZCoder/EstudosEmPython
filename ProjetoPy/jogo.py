@@ -19,7 +19,7 @@ def jogar():
             print("Resposta correta!\n")
             dinheiro_acumulado += 1000  
         else:
-            print(f"Resposta incorreta! Sua pontuação final é: {dinheiro_acumulado}.\n")
+            print(f"Resposta incorreta! Sua pontuação final é: R${dinheiro_acumulado}.\n")
             return
 
     print(f"Parabéns! Você acertou todas as perguntas. Sua pontuação final é: {dinheiro_acumulado}.\n")
