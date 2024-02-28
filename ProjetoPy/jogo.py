@@ -1,5 +1,6 @@
 # jogo.py
 from perguntas import perguntas
+import random
 
 def exibir_pergunta(pergunta):
     print(pergunta["pergunta"])
@@ -9,8 +10,8 @@ def exibir_pergunta(pergunta):
     return resposta_jogador
 
 def jogar():
-    dinheiro_acumulado = 0
-
+    dinheiro_acumulado = 0  
+    random.shuffle(perguntas)
     for pergunta in perguntas:
         resposta_jogador = exibir_pergunta(pergunta)
         
@@ -26,7 +27,7 @@ def jogar():
 
 if __name__ == "__main__":
     print("Bem-vindo ao Quem Quer Ser um Milionário?\nDeseja Jogar ?")
-    resposta = input('Escolha: "s" ou "n"\n')
+    resposta = input('Escolha: "s" ou "n"\n').lower()
     
     if resposta == 's':
         jogar()
