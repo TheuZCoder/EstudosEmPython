@@ -1,3 +1,6 @@
+import estatisticas
+from datetime import datetime
+import operacoes
 #EXEMPLO DE MÓDULOS
 
 #Exemplo: Módulo Matemático (math):
@@ -10,14 +13,23 @@ print(raiz_quadrada)
 print(seno_30_graus)
 #Exemplo: Módulo de Data e Hora (datetime):
 
-from datetime import datetime
 
 data_atual = datetime.now()  # Obtém a data e hora atual
 ano_atual = data_atual.year  # Obtém o ano atual
 print(data_atual)
 print(ano_atual)
 
-import operacoes
 
 resultado_soma = operacoes.somar(5, 3)
 resultado_subtracao = operacoes.subtrair(10, 4)
+print(resultado_soma)
+print(resultado_subtracao)
+
+
+dados = [2, 3, 5, 7, 11, 13, 17]
+media = estatisticas.calcular_media(dados)
+mediana = estatisticas.calcular_mediana(dados)
+print(dados)
+print(media)
+print(mediana)
+
