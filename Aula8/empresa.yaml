@@ -7,10 +7,10 @@ vendas:
     cliente_id: 101
   - id: 2
     data: '2023-02-12'
-    produto: Ofurô
+    produto: Ofuro
     quantidade: 1
     preco_unitario: 3000.00
-    cliente_id: 102
+    cliente_id: 113
   - id: 3
     data: '2023-03-20'
     produto: Spa
@@ -25,7 +25,7 @@ vendas:
     cliente_id: 104
   - id: 5
     data: '2023-05-15'
-    produto: Ofurô
+    produto: Ofuro
     quantidade: 2
     preco_unitario: 3000.00
     cliente_id: 105
@@ -40,10 +40,10 @@ vendas:
     produto: Banheira
     quantidade: 1
     preco_unitario: 2500.00
-    cliente_id: 107
+    cliente_id: 113
   - id: 8
     data: '2023-08-18'
-    produto: Ofurô
+    produto: Ofuro
     quantidade: 3
     preco_unitario: 3000.00
     cliente_id: 108
@@ -61,7 +61,7 @@ vendas:
     cliente_id: 110
   - id: 11
     data: '2023-11-12'
-    produto: Ofurô
+    produto: Ofuro
     quantidade: 1
     preco_unitario: 3000.00
     cliente_id: 111
@@ -79,7 +79,7 @@ vendas:
     cliente_id: 101
   - id: 14
     data: '2023-02-12'
-    produto: Ofurô
+    produto: Ofuro
     quantidade: 1
     preco_unitario: 3000.00
     cliente_id: 102
@@ -97,7 +97,7 @@ vendas:
     cliente_id: 104
   - id: 17
     data: '2023-05-15'
-    produto: Ofurô
+    produto: Ofuro
     quantidade: 3
     preco_unitario: 3000.00
     cliente_id: 105
@@ -115,7 +115,7 @@ vendas:
     cliente_id: 107
   - id: 20
     data: '2023-08-18'
-    produto: Ofurô
+    produto: Ofuro
     quantidade: 2
     preco_unitario: 3000.00
     cliente_id: 108
@@ -130,10 +130,10 @@ vendas:
     produto: Banheira
     quantidade: 1
     preco_unitario: 2500.00
-    cliente_id: 110
+    cliente_id: 113
   - id: 23
     data: '2023-11-12'
-    produto: Ofurô
+    produto: Ofuro
     quantidade: 2
     preco_unitario: 3000.00
     cliente_id: 111
@@ -148,10 +148,10 @@ vendas:
     produto: Banheira
     quantidade: 2
     preco_unitario: 2500.00
-    cliente_id: 101
+    cliente_id: 113
   - id: 26
     data: '2023-02-12'
-    produto: Ofurô
+    produto: Ofuro
     quantidade: 3
     preco_unitario: 3000.00
     cliente_id: 102
@@ -166,10 +166,10 @@ vendas:
     produto: Banheira
     quantidade: 1
     preco_unitario: 2500.00
-    cliente_id: 104
+    cliente_id: 113
   - id: 29
     data: '2023-05-15'
-    produto: Ofurô
+    produto: Ofuro
     quantidade: 2
     preco_unitario: 3000.00
     cliente_id: 105
@@ -184,7 +184,181 @@ vendas:
     produto: Banheira
     quantidade: 1
     preco_unitario: 2500.00
-    cliente_id: 
+    cliente_id: 113
+  - id: 32
+    data: '2023-08-18'
+    produto: Ofuro
+    quantidade: 3
+    preco_unitario: 3000.00
+    cliente_id: 108
+  - id: 33
+    data: '2023-09-30'
+    produto: Spa
+    quantidade: 1
+    preco_unitario: 5000.00
+    cliente_id: 109
+  - id: 34
+    data: '2023-10-08'
+    produto: Banheira
+    quantidade: 2
+    preco_unitario: 2500.00
+    cliente_id: 113
+  - id: 35
+    data: '2023-11-12'
+    produto: Ofuro
+    quantidade: 1
+    preco_unitario: 3000.00
+    cliente_id: 111
+  - id: 36
+    data: '2023-12-20'
+    produto: Spa
+    quantidade: 3
+    preco_unitario: 5000.00
+    cliente_id: 112
+  - id: 37
+    data: '2023-01-05'
+    produto: Banheira
+    quantidade: 3
+    preco_unitario: 2500.00
+    cliente_id: 101
+  - id: 38
+    data: '2023-02-12'
+    produto: Ofuro
+    quantidade: 1
+    preco_unitario: 3000.00
+    cliente_id: 102
+  - id: 39
+    data: '2023-03-20'
+    produto: Spa
+    quantidade: 2
+    preco_unitario: 5000.00
+    cliente_id: 103
+  - id: 40
+    data: '2023-04-10'
+    produto: Banheira
+    quantidade: 2
+    preco_unitario: 2500.00
+    cliente_id: 104
+  - id: 41
+    data: '2023-05-15'
+    produto: Ofuro
+    quantidade: 3
+    preco_unitario: 3000.00
+    cliente_id: 113
+  - id: 42
+    data: '2023-06-25'
+    produto: Spa
+    quantidade: 1
+    preco_unitario: 5000.00
+    cliente_id: 106
+  - id: 43
+    data: '2023-07-05'
+    produto: Banheira
+    quantidade: 1
+    preco_unitario: 2500.00
+    cliente_id: 113
+  - id: 44
+    data: '2023-08-18'
+    produto: Ofuro
+    quantidade: 2
+    preco_unitario: 3000.00
+    cliente_id: 108
+  - id: 45
+    data: '2023-09-30'
+    produto: Spa
+    quantidade: 3
+    preco_unitario: 5000.00
+    cliente_id: 109
+  - id: 46
+    data: '2023-10-08'
+    produto: Banheira
+    quantidade: 1
+    preco_unitario: 2500.00
+    cliente_id: 110
+  - id: 47
+    data: '2023-11-12'
+    produto: Ofuro
+    quantidade: 2
+    preco_unitario: 3000.00
+    cliente_id: 113
+  - id: 48
+    data: '2023-12-20'
+    produto: Spa
+    quantidade: 1
+    preco_unitario: 5000.00
+    cliente_id: 112
+  - id: 49
+    data: '2023-01-05'
+    produto: Banheira
+    quantidade: 2
+    preco_unitario: 2500.00
+    cliente_id: 101
+  - id: 50
+    data: '2023-02-12'
+    produto: Ofuro
+    quantidade: 3
+    preco_unitario: 3000.00
+    cliente_id: 102
+  - id: 51
+    data: '2023-03-20'
+    produto: Spa
+    quantidade: 1
+    preco_unitario: 5000.00
+    cliente_id: 103
+  - id: 52
+    data: '2023-04-10'
+    produto: Banheira
+    quantidade: 1
+    preco_unitario: 2500.00
+    cliente_id: 113
+  - id: 53
+    data: '2023-05-15'
+    produto: Ofuro
+    quantidade: 2
+    preco_unitario: 3000.00
+    cliente_id: 105
+  - id: 54
+    data: '2023-06-25'
+    produto: Spa
+    quantidade: 2
+    preco_unitario: 5000.00
+    cliente_id: 106
+  - id: 55
+    data: '2023-07-05'
+    produto: Banheira
+    quantidade: 1
+    preco_unitario: 2500.00
+    cliente_id: 107
+  - id: 56
+    data: '2023-08-18'
+    produto: Ofuro
+    quantidade: 3
+    preco_unitario: 3000.00
+    cliente_id: 108
+  - id: 57
+    data: '2023-09-30'
+    produto: Spa
+    quantidade: 1
+    preco_unitario: 5000.00
+    cliente_id: 109
+  - id: 58
+    data: '2023-10-08'
+    produto: Banheira
+    quantidade: 2
+    preco_unitario: 2500.00
+    cliente_id: 113
+  - id: 59
+    data: '2023-11-12'
+    produto: Ofuro
+    quantidade: 1
+    preco_unitario: 3000.00
+    cliente_id: 111
+  - id: 60
+    data: '2023-12-20'
+    produto: Spa
+    quantidade: 3
+    preco_unitario: 5000.00
+    cliente_id: 112
 
 comportamento_do_cliente:
   - id: 101
@@ -204,7 +378,7 @@ comportamento_do_cliente:
     idade: 50
     sexo: Masculino
     cidade: Belo Horizonte
-    valor_gasto_total:15000.00
+    valor_gasto_total:
   - id: 104
     nome: Ana Santos
     idade: 55
@@ -259,12 +433,17 @@ comportamento_do_cliente:
     sexo: Feminino
     cidade: Florianópolis
     valor_gasto_total: 
+  - id: 113
+    nome: Loja Propria
+    sexo: 
+    cidade: Limeira
+    valor_gasto_total:
 
 desempenho_do_produto:
   - produto: Banheira
     vendas_totais: 
     receita_total: 
-  - produto: Ofurô
+  - produto: Ofuro
     vendas_totais: 
     receita_total: 
   - produto: Spa
