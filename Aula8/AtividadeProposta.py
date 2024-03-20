@@ -44,3 +44,14 @@ plt.xlabel('Idade')
 plt.ylabel('Valor Gasto Total')
 plt.grid(True)
 plt.show()
+
+
+# Gráfico de barras dos produtos mais vendidos
+plt.figure(figsize=(10, 6))
+sns.barplot(x='produto', y='quantidade', data=df_vendas, estimator=sum)
+plt.title('Produtos Mais Vendidos')
+plt.xlabel('Produto')
+plt.ylabel('Quantidade Vendida')
+plt.xticks(rotation=45)
+plt.grid(axis='y')
+plt.show()
